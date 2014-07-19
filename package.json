@@ -1,0 +1,19 @@
+{
+  "name": "humble-style",
+  "version": "0.0.1",
+  "description": "Humble Style ========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HumbleSoftware/humble-style.git"
+  },
+  "author": "Carl Sutherland <carl@humblesoftware.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HumbleSoftware/humble-style/issues"
+  },
+  "homepage": "https://github.com/HumbleSoftware/humble-style"
+}
