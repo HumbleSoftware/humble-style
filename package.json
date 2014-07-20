@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "Humble Style ========",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/HumbleSoftware/humble-style.git"
@@ -17,11 +14,12 @@
   },
   "homepage": "https://github.com/HumbleSoftware/humble-style",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-clean": "^0.5.0",
-    "grunt-contrib-copy": "^0.5.0",
-    "grunt-contrib-connect": "^0.8.0",
-    "grunt-contrib-less": "^0.11.3",
-    "grunt-contrib-watch": "^0.6.1"
+    "gulp": "^3.8.6",
+    "gulp-clean": "^0.3.1",
+    "gulp-connect": "^2.0.6",
+    "gulp-less": "^1.3.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-util": "^3.0.0",
+    "gulp-watch": "^0.6.8"
   }
 }
