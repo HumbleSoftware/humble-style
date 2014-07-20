@@ -1,0 +1,41 @@
+/**
+ * Configuration.
+ *
+ * First, pull in the default boostrap configuration.  Then add files to 
+ * override variables and mixins.
+ */
+@import 'bootstrap/less/variables.less';
+@import 'bootstrap/less/mixins.less';
+@import 'bootstrap/less/utilities.less';
+@import 'variables.less';
+@import 'mixins.less';
+
+/**
+ * Dependencies.
+ *
+ * Add dependencies including normalize and print (from bootstrap).
+ */
+@import 'bootstrap/less/normalize.less';
+@import 'bootstrap/less/print.less';
+
+/**
+ * Include Core Bootstrap
+ *
+ * We'll use all of the core features.  Include everything.
+ */
+@import 'bootstrap/less/scaffolding.less';
+@import 'bootstrap/less/type.less';
+@import 'bootstrap/less/code.less';
+@import 'bootstrap/less/grid.less';
+@import 'bootstrap/less/tables.less';
+@import 'bootstrap/less/forms.less';
+@import 'bootstrap/less/buttons.less';
+
+/**
+ * Include Bootstrap Components
+ *
+ * Here we pick and choose.  We only want to select what we use to keep this 
+ * trim.
+ */
+@import 'bootstrap/less/navs.less';
+@import 'bootstrap/less/navbar.less';
