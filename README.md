@@ -8,6 +8,7 @@ A humble bootstrap theme.
 This is a LESS project using a gulp-based build for development and bower for package management.
 
 Pre-requisites:
+
 1. Install node.js
 2. Install bower `npm install -g bower`
 3. Install npm packages `npm install` in repo root
