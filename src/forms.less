@@ -1,10 +1,10 @@
 
 .form-group label {
-  color: #39AE68;
+  color: @humble-green;
 }
 
 .btn {
-  background-color: #39AE68;
+  background-color: @humble-green;
   color: #CCE7D3;
   border-radius: 10px;
   font-family: 'Oxygen', sans-serif;
@@ -27,8 +27,9 @@
 }
 
 .form-control:focus {
-  border-color: #A69B98;
-  box-shadow: 1px 1px 1px 1px #A69B98;
+  @box-shadow-gray: #A69B98;
+  border-color: @box-shadow-gray;
+  box-shadow: 1px 1px 1px 1px @box-shadow-gray;
   width: 50%;
   font-family: 'Oxygen', sans-serif;
 }
